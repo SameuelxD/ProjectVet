@@ -8,4 +8,6 @@ public class Servicio:BaseEntity
 
     [Required]
     public double Precio { get; set; }
+    
+    public ICollection<Cita> Citas { get; set; }
 }
