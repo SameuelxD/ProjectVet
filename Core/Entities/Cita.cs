@@ -20,5 +20,6 @@ public class Cita:BaseEntity
     
     [Required]
     public int ServicioId { get; set; }
+    public Servicio Servicio { get; set; }
 
 }

@@ -686,19 +686,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\USER\\Documents\\ProjectVet-main\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "/workspaces/ProjectVet/Infrastructure/Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "c:\\Users\\USER\\Documents\\ProjectVet-main\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\USER\\Documents\\ProjectVet-main\\Infrastructure\\obj\\",
+      "projectPath": "/workspaces/ProjectVet/Infrastructure/Infrastructure.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/ProjectVet/Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -710,8 +710,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\USER\\Documents\\ProjectVet-main\\Core\\Core.csproj": {
-              "projectPath": "c:\\Users\\USER\\Documents\\ProjectVet-main\\Core\\Core.csproj"
+            "/workspaces/ProjectVet/Core/Core.csproj": {
+              "projectPath": "/workspaces/ProjectVet/Core/Core.csproj"
             }
           }
         }
@@ -751,7 +751,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
       }
     }
   }
