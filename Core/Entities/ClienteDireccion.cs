@@ -5,7 +5,7 @@ public class ClienteDireccion : BaseEntity
 {
     [Required]
     public int IdCliente { get; set; }      //Llave Foranea    
-    public Cliente Cliente { get; set; } /* Linea Relacional de Cliente de uno a uno donde cada ClienteDireccion tendra un solo dato tipo Cliente */
+    public Cliente Clientes { get; set; } /* Linea Relacional de Cliente de uno a uno donde cada ClienteDireccion tendra un solo dato tipo Cliente */
     public string TipoDeVia { get; set; }
     public int NumeroPri { get; set; }
     public string Letra { get; set; }
@@ -22,7 +22,7 @@ public class ClienteDireccion : BaseEntity
     [Required]
     public int IdCiudad { get; set; }
 
-    public Ciudad Ciudad { get; set; }
+    public Ciudad Ciudades { get; set; }
     /* Linea Relacional de Ciudad de uno a muchos donde cada ClienteDireccion tendra un solo dato tipo Ciudad */
     
 }

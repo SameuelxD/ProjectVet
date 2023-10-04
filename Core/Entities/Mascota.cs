@@ -12,7 +12,7 @@ public class Mascota:BaseEntity
     [Required]
     public int IdRaza { get; set; }
 
-    public Raza Raza { get; set; }
+    public Raza Razas { get; set; }
 
     [Required]
     public DateTime FechaNacimiento { get; set; }
@@ -20,7 +20,7 @@ public class Mascota:BaseEntity
     [Required]
     public int IdCliente { get; set; }
 
-    public Cliente Cliente { get; set; } /* Linea Relacional de Cliente , de uno a muchos donde cada Mascota tendra un solo dato tipo cliente */
+    public Cliente Clientes { get; set; } /* Linea Relacional de Cliente , de uno a muchos donde cada Mascota tendra un solo dato tipo cliente */
 
     public ICollection<Cita> Citas { get; set; }
 }
