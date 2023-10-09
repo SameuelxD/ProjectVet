@@ -18,7 +18,9 @@ namespace Infrastructure.Data.Configuration
             builder.Property(p => p.Hora).HasColumnType("time");
 
             builder.HasOne(p => p.Clientes).WithMany(p => p.Citas).HasForeignKey(p => p.IdCliente);
+
             builder.HasOne(p => p.Mascotas).WithMany(p => p.Citas).HasForeignKey(p => p.IdMascota);
+            
             builder.HasOne(p => p.Servicios).WithMany(p => p.Citas).HasForeignKey(p => p.ServicioId);
                        
         }

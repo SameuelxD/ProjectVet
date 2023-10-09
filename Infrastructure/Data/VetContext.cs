@@ -7,9 +7,7 @@ namespace Infrastructure.Data;
 public class VetContext : DbContext
 {
     public VetContext(DbContextOptions options) : base(options)     //Contructor del Contexto
-    {
-
-    }
+    { }
     public DbSet<Cliente> Clientes { get; set; }
     public DbSet<Pais> Paises { get; set; }
     public DbSet<Departamento> Departamentos { get; set; }  // Context DbSet para cada Entidad

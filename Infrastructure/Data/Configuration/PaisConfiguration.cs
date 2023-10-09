@@ -12,7 +12,7 @@ namespace Infrastructure.Data.Configuration
 
             builder.ToTable("Pais");
 
-            builder.HasKey(e => e.Id);
+            builder.HasKey(e => e.Id);  //Definicion llave primaria
             builder.Property(e => e.Id);
 
             builder.Property(p => p.NombrePais).IsRequired().HasMaxLength(50);

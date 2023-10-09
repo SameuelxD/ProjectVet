@@ -1,6 +1,8 @@
-namespace Core.Entities; 
-public class Raza:BaseEntity
+namespace Core.Entities
 {
-    public string NombreRaza { get; set; }
-    public ICollection<Mascota> Mascotas { get; set; }
+    public class Raza : BaseEntity
+    {
+        public string NombreRaza { get; set; }
+        public ICollection<Mascota> Mascotas { get; set; }
+    }
 }

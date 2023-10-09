@@ -8,9 +8,10 @@ namespace Infrastructure.Data.Configuration
     {
         public void Configure(EntityTypeBuilder<Departamento> builder)
         {
+            // Aqui puedes configurar las porpiedades de la Entidad Deparatmento , utilizando el objeto builder
             builder.ToTable("Departamento");
 
-            builder.HasKey(e => e.Id);
+            builder.HasKey(e => e.Id);  //Definicion llave primaria
             builder.Property(e => e.Id);
 
             builder.Property(p => p.NombreDepartamento).IsRequired().HasMaxLength(50);

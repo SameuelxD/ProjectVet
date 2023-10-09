@@ -12,11 +12,11 @@ namespace Infrastructure.Data.Configuration
 
             builder.HasKey(e => e.Id);
             builder.Property(e => e.Id);
-
-            builder.Property(p => p.Nombre).IsRequired().HasMaxLength(50);
             
-            builder.Property(p => p.Nombre).IsRequired().HasMaxLength(50);              
+            builder.Property(p => p.Nombre).IsRequired().HasMaxLength(50);
+
             builder.Property(p => p.Apellido).IsRequired().HasMaxLength(50);
+            
             builder.Property(p => p.Email).IsRequired().HasMaxLength(50);
               
         }
